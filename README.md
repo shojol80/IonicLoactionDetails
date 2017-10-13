@@ -1,4 +1,5 @@
 This is a simple Ionic V1 App To get user's
+
     1)IP
     2)country_code
     3)country_name
