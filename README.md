@@ -16,3 +16,16 @@ Usign http://freegeoip.net/ API.
 Simply Download and run the code.
 
 ![Alt text](img/1.png?raw=true "App")
+
+How to Start
+
+    install node.js;
+    install ionic and cordova with cmd like: npm install -g cordova ionic;
+    use the npm install to install all dependents for building progress;
+    use the bower install to install all dependents for project;
+    use the ionic serve to see the demo in the web;
+    use the ionic platform add android to add support for Android project;
+    use the ionic build android to create a Android project in \platform
+    use the ionic platform add ios to add support for iOS project;
+    use the ionic build ios to create a iOS project in \platform
+
