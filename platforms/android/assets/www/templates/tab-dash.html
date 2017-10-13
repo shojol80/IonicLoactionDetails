@@ -1,0 +1,18 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <h2>Welcome to Ionic</h2>
+    browser Language : {{language}} </br>
+    device Language : {{id}}
+
+    <pre>
+        <p>Data from freegeoip.net </p></br>
+
+    {{allads}}
+    </pre>
+    
+
+<button ion-button ng-click="info()">Get Sim info</button>
+<button ion-button ng-click="findDeviceIP()">Get IP(Offline)</button>
+  </ion-content>
+
+</ion-view>

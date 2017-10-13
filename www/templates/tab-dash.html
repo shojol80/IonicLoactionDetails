@@ -1,0 +1,62 @@
+<ion-view view-title="Cogni Detector" align-title="center" >
+
+  <ion-content class="padding" style="top: 44px !important;">
+
+    <div class="card">
+	  <div class="item item-divider">
+	    Network Details
+	  </div>
+	</div>
+
+    <ul class="list">
+
+	    <li class="item">
+    		<p><strong>IP: </strong> {{ip}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Country code: </strong> {{country_code}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Country name: </strong> {{country_name}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Device Language:</strong> {{id}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Browser Language:</strong> {{language}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Region name: </strong> {{region_name}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>City: </strong> {{city}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Zip code: </strong> {{zip_code}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Time zone: </strong> {{time_zone}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Latitude: </strong> {{latitude}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Longitude: </strong> {{longitude}}</p>
+	    </li>
+	    <li class="item">
+    		<p><strong>Metro code: </strong> {{metro_code}}</p>
+	    </li>
+	</ul>
+ 
+	
+	<button class="button button-calm" ng-click="info()">
+	  Get Sim info
+	</button>
+
+	<button class="button button-calm" ng-click="findDeviceIP()">
+	  Get IP(Offline)
+	</button>
+
+  </ion-content>
+
+</ion-view>
