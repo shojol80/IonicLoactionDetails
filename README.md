@@ -13,4 +13,5 @@ This is a simple Ionic V1 App To get user's
 
 Usign http://freegeoip.net/ API.
 Simply Download and run the code.
+
 ![Alt text](img/1.png?raw=true "App")
